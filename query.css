@@ -1,0 +1,106 @@
+@media (min-width: 768px) {
+    header, footer {
+      padding: 24px;
+    }
+    section {
+      padding: 40px 24px;
+    }
+    .hero {
+      flex-direction: row-reverse;
+      align-items: center;
+    }
+    .hero-image,
+    .hero-text,
+    .about-me-img,
+    .about-me-text,
+    .project-img,
+    .project-details, form, .contact-info {
+      width: 100%;
+    }
+    .skill-boxes {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .box-header {
+      justify-content: space-between;
+    }
+    .box-header, .about-me, .project, .testi-list {
+      flex-direction: row;
+      align-items: center;
+    }
+    .project:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+    .testi-list {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .testi-box {
+      flex-basis: 45%;
+      flex-grow: 1;
+      /* flex: 1 1 45%; */
+    }
+    .contact {
+      display: flex;
+      gap: 32px;
+    }
+  }
+  @media (min-width: 1024px) {
+      header, footer, section {
+          max-width: 1920px;
+          margin: 0 auto;
+      }
+      header, footer {
+          padding: 24px 80px;
+      }
+      section {
+          padding: 60px 80px;
+      }
+      .menu {
+          display: none;
+      }
+      nav, .resume {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 32px;
+      }
+      nav a {
+          font-size: var(--Heading6-Size);
+          line-height: var(--Heading6-LH);
+          letter-spacing: var(--Heading6-Track);
+          font-weight: 500;
+          color: var(--Primary-Black);
+      }
+      nav a:hover {
+          font-weight: 600;
+      }
+      .resume {
+          font-size: var(--Button-Text-Size);
+          line-height: var(--Button-Text-LH);
+          letter-spacing: var(--Button-Text-Track);
+          font-weight: 600;
+          color: var(--Primary-White);
+          background-color: var(--Primary-Black);
+          gap: 8px;
+          padding: 16px 20px;
+          border-radius: 4px;
+      }
+      .menu-content {
+        display: none;
+      }
+      .hero-text h1 {
+        gap: 20px;
+        font-size: var(--Display-Size);
+        line-height: var(--Display-LH);
+        letter-spacing: var(--Display-Track);
+      }
+      h2 {
+        font-size: var(--Display-Size);
+        line-height: var(--Display-LH);
+        letter-spacing: var(--Display-Track);
+      }
+      .about-me {
+        align-items: flex-start;
+      }
+  }
+  

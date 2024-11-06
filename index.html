@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="query.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <a href="/">
+        <div class="brand">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+          >
+            <path
+              d="M31.5294 14.2118C31.5294 18.8819 28.7623 22.9082 24.7793 24.7351C26.4612 23.3496 27.5322 21.248 27.5322 18.896C27.5322 14.7642 24.2259 11.4042 20.112 11.3205C20.0574 11.3167 20.0075 11.3167 19.9529 11.3167C19.8983 11.3167 19.8485 11.3167 19.7939 11.3205C18.2673 11.4033 17.0588 12.6663 17.0588 14.2108V28.6814C17.0588 33.4748 13.1699 37.3638 8.37646 37.3638V14.2118C8.37646 7.81928 13.5605 2.63528 19.9529 2.63528C26.3454 2.63528 31.5294 7.81928 31.5294 14.2118Z"
+              fill="currentColor"
+            />
+            <path
+              d="M21.9992 16.2582C23.1294 15.128 23.1294 13.2956 21.9992 12.1654C20.8689 11.0351 19.0365 11.0351 17.9063 12.1654C16.7761 13.2956 16.7761 15.128 17.9063 16.2582C19.0365 17.3884 20.8689 17.3884 21.9992 16.2582Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span>Fulan bin Fulan</span>
+        </div>
+      </a>
+      <nav>
+        <a href="#skills"> Skills </a>
+        <a href="#experience"> Experiences </a>
+        <a href="#about-me"> About </a>
+        <a href="#projects"> Projects </a>
+        <a href="#testi"> Testimonial </a>
+        <a href="#contact"> Contact </a>
+      </nav>
+      <a
+        href="assets/resume_misbachul_munir.pdf"
+        target="_blank"
+        class="resume"
+      >
+        Resume
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 20 20"
+          fill="none"
+        >
+          <path
+            d="M17.5 12.5V13.5C17.5 14.9001 17.5 15.6002 17.2275 16.135C16.9878 16.6054 16.6054 16.9878 16.135 17.2275C15.6002 17.5 14.9001 17.5 13.5 17.5H6.5C5.09987 17.5 4.3998 17.5 3.86502 17.2275C3.39462 16.9878 3.01217 16.6054 2.77248 16.135C2.5 15.6002 2.5 14.9001 2.5 13.5V12.5M14.1667 8.33333L10 12.5M10 12.5L5.83333 8.33333M10 12.5V2.5"
+            stroke="white"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
+      <button class="menu">
+        <div class="burgers">
+          <div class="burger"></div>
+          <div class="burger"></div>
+          <div class="burger"></div>
+        </div>
+      </button>
+      <div class="menu-content">
+        <a href="#skills"> Skills </a>
+        <a href="#experience"> Experiences </a>
+        <a href="#about-me"> About </a>
+        <a href="#projects"> Projects </a>
+        <a href="#testi"> Testimonial </a>
+        <a href="#contact"> Contact </a>
+        <a href="assets/resume_misbachul_munir.pdf" target="_blank">
+          Resume
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+          >
+            <path
+              d="M17.5 12.5V13.5C17.5 14.9001 17.5 15.6002 17.2275 16.135C16.9878 16.6054 16.6054 16.9878 16.135 17.2275C15.6002 17.5 14.9001 17.5 13.5 17.5H6.5C5.09987 17.5 4.3998 17.5 3.86502 17.2275C3.39462 16.9878 3.01217 16.6054 2.77248 16.135C2.5 15.6002 2.5 14.9001 2.5 13.5V12.5M14.1667 8.33333L10 12.5M10 12.5L5.83333 8.33333M10 12.5V2.5"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+      </div>
+    </header>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-image">
+        <img src="assets/hero-image.png" alt="Gambar Hero" />
+      </div>
+      <div class="hero-text">
+        <h1>
+          <span>
+            Hello I'm <b>Fulan.</b>
+          </span>
+          <span>
+            <b>Software</b> <span>Developer.</span>
+          </span>
+          <span>
+            Based in <b>Indonesia.</b>
+          </span>
+        </h1>
+        <p>
+          I'm Fulan Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley
+          of type and scrambled it to specimen book.
+        </p>
+        <div class="button-box">
+          <a
+            href="#"
+            target="_blank"
+            class="hero-btn"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_1513_742)">
+                <path
+                  d="M0 1.146C0 0.513 0.526 0 1.175 0H14.825C15.474 0 16 0.513 16 1.146V14.854C16 15.487 15.474 16 14.825 16H1.175C0.526 16 0 15.487 0 14.854V1.146ZM4.943 13.394V6.169H2.542V13.394H4.943ZM3.743 5.182C4.58 5.182 5.101 4.628 5.101 3.934C5.086 3.225 4.581 2.686 3.759 2.686C2.937 2.686 2.4 3.226 2.4 3.934C2.4 4.628 2.921 5.182 3.727 5.182H3.743ZM8.651 13.394V9.359C8.651 9.143 8.667 8.927 8.731 8.773C8.904 8.342 9.299 7.895 9.963 7.895C10.832 7.895 11.179 8.557 11.179 9.529V13.394H13.58V9.25C13.58 7.03 12.396 5.998 10.816 5.998C9.542 5.998 8.971 6.698 8.651 7.191V7.216H8.635L8.651 7.191V6.169H6.251C6.281 6.847 6.251 13.394 6.251 13.394H8.651Z"
+                  fill="currentColor"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1513_742">
+                  <rect width="16" height="16" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <a href="#" target="_blank" class="hero-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+            >
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C12.1384 15.0543 13.5187 14.0337 14.4964 12.672C15.4741 11.3104 16 9.67631 16 8C16 3.58 12.42 0 8 0Z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            class="hero-btn"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_1513_746)">
+                <path
+                  d="M13.601 2.32606C12.8676 1.58555 11.9941 0.998501 11.0314 0.599149C10.0688 0.199797 9.03621 -0.00386082 7.994 5.54251e-05C3.627 5.54251e-05 0.068 3.55806 0.064 7.92606C0.064 9.32506 0.43 10.6861 1.121 11.8911L0 16.0001L4.204 14.8981C5.36649 15.5323 6.66975 15.8641 7.994 15.8631H7.998C12.366 15.8631 15.924 12.3051 15.928 7.93306C15.9289 6.89112 15.7237 5.85929 15.3241 4.897C14.9246 3.9347 14.3396 3.06095 13.601 2.32606ZM7.994 14.5211C6.81318 14.5201 5.65422 14.2024 4.638 13.6011L4.398 13.4571L1.904 14.1111L2.57 11.6781L2.414 11.4271C1.75381 10.3774 1.40465 9.16208 1.407 7.92206C1.407 4.29606 4.364 1.33806 7.998 1.33806C8.86374 1.3365 9.72123 1.50633 10.521 1.83775C11.3208 2.16916 12.0471 2.65562 12.658 3.26906C13.2709 3.8802 13.7568 4.6066 14.0877 5.40638C14.4186 6.20617 14.5879 7.06352 14.586 7.92906C14.582 11.5681 11.625 14.5211 7.994 14.5211ZM11.609 9.58706C11.412 9.48806 10.439 9.00906 10.256 8.94106C10.074 8.87606 9.941 8.84206 9.811 9.04006C9.678 9.23706 9.298 9.68605 9.184 9.81505C9.07 9.94805 8.952 9.96306 8.754 9.86506C8.557 9.76506 7.918 9.55706 7.162 8.88006C6.572 8.35506 6.177 7.70506 6.059 7.50806C5.945 7.31006 6.048 7.20406 6.147 7.10506C6.234 7.01706 6.344 6.87306 6.443 6.75906C6.543 6.64506 6.576 6.56106 6.641 6.42906C6.706 6.29506 6.675 6.18106 6.626 6.08206C6.576 5.98306 6.181 5.00606 6.014 4.61206C5.854 4.22306 5.691 4.27706 5.569 4.27206C5.455 4.26506 5.322 4.26506 5.189 4.26506C5.08857 4.26761 4.98976 4.29087 4.89873 4.33337C4.80771 4.37587 4.72643 4.4367 4.66 4.51206C4.478 4.71006 3.969 5.18906 3.969 6.16606C3.969 7.14306 4.679 8.08206 4.779 8.21506C4.877 8.34806 6.173 10.3471 8.162 11.2071C8.632 11.4121 9.002 11.5331 9.291 11.6251C9.766 11.7771 10.195 11.7541 10.537 11.7051C10.917 11.6471 11.708 11.2251 11.875 10.7621C12.039 10.2981 12.039 9.90206 11.989 9.81906C11.94 9.73506 11.807 9.68606 11.609 9.58706Z"
+                  fill="currentColor"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1513_746">
+                  <rect width="16" height="16" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <a href="#" target="_blank" class="hero-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_1513_752)">
+                <path
+                  d="M16 8.04902C16 3.60302 12.418 -0.000976562 8.00005 -0.000976562C3.58005 2.34375e-05 -0.00195312 3.60302 -0.00195312 8.05002C-0.00195312 12.067 2.92405 15.397 6.74805 16.001V10.376H4.71805V8.05002H6.75005V6.27502C6.75005 4.25802 7.94505 3.14402 9.77205 3.14402C10.648 3.14402 11.563 3.30102 11.563 3.30102V5.28102H10.554C9.56105 5.28102 9.25105 5.90202 9.25105 6.53902V8.04902H11.469L11.115 10.375H9.25005V16C13.074 15.396 16 12.066 16 8.04902Z"
+                  fill="currentColor"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1513_752">
+                  <rect width="16" height="16" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <a
+            href="#"
+            target=""
+            class="hero-btn"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_1513_754)">
+                <path
+                  d="M8 0C5.829 0 5.556 0.01 4.703 0.048C3.85 0.088 3.269 0.222 2.76 0.42C2.22584 0.620326 1.74214 0.935398 1.343 1.343C0.935398 1.74214 0.620326 2.22584 0.42 2.76C0.222 3.268 0.087 3.85 0.048 4.7C0.01 5.555 0 5.827 0 8.001C0 10.173 0.01 10.445 0.048 11.298C0.088 12.15 0.222 12.731 0.42 13.24C0.625 13.766 0.898 14.212 1.343 14.657C1.787 15.102 2.233 15.376 2.759 15.58C3.269 15.778 3.849 15.913 4.701 15.952C5.555 15.99 5.827 16 8 16C10.173 16 10.444 15.99 11.298 15.952C12.149 15.912 12.732 15.778 13.241 15.58C13.7748 15.3795 14.2581 15.0645 14.657 14.657C15.102 14.212 15.375 13.766 15.58 13.24C15.777 12.731 15.912 12.15 15.952 11.298C15.99 10.445 16 10.173 16 8C16 5.827 15.99 5.555 15.952 4.701C15.912 3.85 15.777 3.268 15.58 2.76C15.3797 2.22584 15.0646 1.74214 14.657 1.343C14.2579 0.935398 13.7742 0.620326 13.24 0.42C12.73 0.222 12.148 0.087 11.297 0.048C10.443 0.01 10.172 0 7.998 0H8ZM7.283 1.442H8.001C10.137 1.442 10.39 1.449 11.233 1.488C12.013 1.523 12.437 1.654 12.719 1.763C13.092 1.908 13.359 2.082 13.639 2.362C13.919 2.642 14.092 2.908 14.237 3.282C14.347 3.563 14.477 3.987 14.512 4.767C14.551 5.61 14.559 5.863 14.559 7.998C14.559 10.133 14.551 10.387 14.512 11.23C14.477 12.01 14.346 12.433 14.237 12.715C14.1078 13.0619 13.9032 13.3758 13.638 13.634C13.358 13.914 13.092 14.087 12.718 14.232C12.438 14.342 12.014 14.472 11.233 14.508C10.39 14.546 10.137 14.555 8.001 14.555C5.865 14.555 5.611 14.546 4.768 14.508C3.988 14.472 3.565 14.342 3.283 14.232C2.93583 14.1033 2.6216 13.899 2.363 13.634C2.09727 13.3756 1.89233 13.0614 1.763 12.714C1.654 12.433 1.523 12.009 1.488 11.229C1.45 10.386 1.442 10.133 1.442 7.996C1.442 5.859 1.45 5.608 1.488 4.765C1.524 3.985 1.654 3.561 1.764 3.279C1.909 2.906 2.083 2.639 2.363 2.359C2.643 2.079 2.909 1.906 3.283 1.761C3.565 1.651 3.988 1.521 4.768 1.485C5.506 1.451 5.792 1.441 7.283 1.44V1.442ZM12.271 2.77C12.1449 2.77 12.0201 2.79483 11.9036 2.84308C11.7872 2.89132 11.6813 2.96203 11.5922 3.05118C11.503 3.14032 11.4323 3.24615 11.3841 3.36262C11.3358 3.4791 11.311 3.60393 11.311 3.73C11.311 3.85607 11.3358 3.9809 11.3841 4.09738C11.4323 4.21385 11.503 4.31968 11.5922 4.40882C11.6813 4.49797 11.7872 4.56868 11.9036 4.61692C12.0201 4.66517 12.1449 4.69 12.271 4.69C12.5256 4.69 12.7698 4.58886 12.9498 4.40882C13.1299 4.22879 13.231 3.98461 13.231 3.73C13.231 3.47539 13.1299 3.23121 12.9498 3.05118C12.7698 2.87114 12.5256 2.77 12.271 2.77ZM8.001 3.892C7.45607 3.8835 6.91489 3.98349 6.40898 4.18614C5.90306 4.3888 5.44251 4.69007 5.05415 5.07242C4.66579 5.45478 4.35736 5.91057 4.14684 6.41326C3.93632 6.91595 3.8279 7.4555 3.8279 8.0005C3.8279 8.5455 3.93632 9.08505 4.14684 9.58774C4.35736 10.0904 4.66579 10.5462 5.05415 10.9286C5.44251 11.3109 5.90306 11.6122 6.40898 11.8149C6.91489 12.0175 7.45607 12.1175 8.001 12.109C9.07954 12.0922 10.1082 11.6519 10.865 10.8833C11.6217 10.1146 12.0459 9.07917 12.0459 8.0005C12.0459 6.92183 11.6217 5.88641 10.865 5.11775C10.1082 4.34909 9.07954 3.90883 8.001 3.892ZM8.001 5.333C8.35124 5.333 8.69804 5.40198 9.02162 5.53601C9.34519 5.67004 9.6392 5.86649 9.88685 6.11415C10.1345 6.3618 10.331 6.65581 10.465 6.97938C10.599 7.30296 10.668 7.64976 10.668 8C10.668 8.35024 10.599 8.69704 10.465 9.02062C10.331 9.34419 10.1345 9.6382 9.88685 9.88585C9.6392 10.1335 9.34519 10.33 9.02162 10.464C8.69804 10.598 8.35124 10.667 8.001 10.667C7.29367 10.667 6.61531 10.386 6.11515 9.88585C5.61499 9.38569 5.334 8.70733 5.334 8C5.334 7.29267 5.61499 6.61431 6.11515 6.11415C6.61531 5.61399 7.29367 5.333 8.001 5.333Z"
+                  fill="currentColor"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1513_754">
+                  <rect width="16" height="16" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+      <h2>My <b>Skills</b></h2>
+      <div class="skill-boxes">
+        <!-- HTML -->
+        <div class="skill">
+          <img src="assets/skills/html.svg" alt="HTML" />
+          <p>HTML</p>
+        </div>
+        <!-- CSS -->
+        <div class="skill">
+          <img src="assets/skills/css3.svg" alt="CSS" />
+          <p>CSS</p>
+        </div>
+        <!-- JS -->
+        <div class="skill">
+          <img src="assets/skills/js.svg" alt="JavaScript" />
+          <p>JavaScript</p>
+        </div>
+        <!-- Laravel -->
+        <div class="skill">
+          <img src="assets/skills/laravel.svg" alt="Laravel" />
+          <p>Laravel</p>
+        </div>
+        <!-- React -->
+        <div class="skill">
+          <img src="assets/skills/react.svg" alt="React" />
+          <p>React</p>
+        </div>
+        <!-- Flutter -->
+        <div class="skill">
+          <img src="assets/skills/flutter.svg" alt="Flutter" />
+          <p>Flutter</p>
+        </div>
+      </div>
+    </section>
+    <!-- EXPERIENCES -->
+    <section class="experiences" id="experience">
+      <h2>My <b>Experience</b></h2>
+      <div class="experience-list">
+        <div class="experience-box">
+          <div class="box-header">
+            <div class="box-logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+              >
+                <path
+                  d="M30.0014 16.3109C30.0014 15.1598 29.9061 14.3198 29.6998 13.4487H16.2871V18.6442H24.1601C24.0014 19.9354 23.1442 21.8798 21.2394 23.1864L21.2127 23.3604L25.4536 26.58L25.7474 26.6087C28.4458 24.1665 30.0014 20.5731 30.0014 16.3109Z"
+                  fill="#4285F4"
+                />
+                <path
+                  d="M16.2863 30C20.1434 30 23.3814 28.7555 25.7466 26.6089L21.2386 23.1865C20.0323 24.011 18.4132 24.5866 16.2863 24.5866C12.5086 24.5866 9.30225 22.1444 8.15929 18.7688L7.99176 18.7827L3.58208 22.1272L3.52441 22.2843C5.87359 26.8577 10.699 30 16.2863 30Z"
+                  fill="#34A853"
+                />
+                <path
+                  d="M8.16013 18.7688C7.85855 17.8977 7.68401 16.9643 7.68401 15.9999C7.68401 15.0354 7.85855 14.1021 8.14426 13.231L8.13627 13.0455L3.67132 9.64734L3.52524 9.71544C2.55703 11.6132 2.00146 13.7444 2.00146 15.9999C2.00146 18.2555 2.55703 20.3865 3.52524 22.2843L8.16013 18.7688Z"
+                  fill="#FBBC05"
+                />
+                <path
+                  d="M16.2864 7.4133C18.9689 7.4133 20.7784 8.54885 21.8102 9.4978L25.8419 5.64C23.3658 3.38445 20.1435 2 16.2864 2C10.699 2 5.8736 5.1422 3.52441 9.71549L8.14345 13.2311C9.30229 9.85555 12.5086 7.4133 16.2864 7.4133Z"
+                  fill="#EB4335"
+                />
+              </svg>
+              <h3>Lead Software Engineer at Google</h3>
+            </div>
+            <span>Nov 2019 - Present</span>
+          </div>
+          <p>
+            As a Senior Software Engineer at Google, I played a pivotal role in
+            developing innovative solutions for Google's core search algorithms.
+            Collaborating with a dynamic team of engineers, I contributed to the
+            enhancement of search accuracy and efficiency, optimizing user
+            experiences for millions of users worldwide.
+          </p>
+        </div>
+        <div class="experience-box">
+          <div class="box-header">
+            <div class="box-logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+              >
+                <path
+                  d="M2.24451 9.94111C2.37304 7.96233 3.96395 6.41157 5.94447 6.31345C8.81239 6.17136 12.9115 6 16 6C19.0885 6 23.1876 6.17136 26.0555 6.31345C28.0361 6.41157 29.627 7.96233 29.7555 9.94111C29.8786 11.8369 30 14.1697 30 16C30 17.8303 29.8786 20.1631 29.7555 22.0589C29.627 24.0377 28.0361 25.5884 26.0555 25.6866C23.1876 25.8286 19.0885 26 16 26C12.9115 26 8.81239 25.8286 5.94447 25.6866C3.96395 25.5884 2.37304 24.0377 2.24451 22.0589C2.12136 20.1631 2 17.8303 2 16C2 14.1697 2.12136 11.8369 2.24451 9.94111Z"
+                  fill="#FC0D1B"
+                />
+                <path d="M13 12V20L21 16L13 12Z" fill="white" />
+              </svg>
+              <h3>Software Engineer at Youtube</h3>
+            </div>
+            <span>Jan 2017 - Oct 2019</span>
+          </div>
+          <p>
+            At Youtube, I served as a Software Engineer, focusing on the design
+            and implementation of backend systems for the social media giant's
+            dynamic platform. Working on projects that involved large-scale data
+            processing and user engagement features, I leveraged my expertise to
+            ensure seamless functionality and scalability.
+          </p>
+        </div>
+        <div class="experience-box">
+          <div class="box-header">
+            <div class="box-logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+              >
+                <path
+                  d="M30 16C30 23.728 23.735 30 16 30C8.265 30 2 23.728 2 16C2 8.265 8.265 2 16 2C23.735 2 30 8.265 30 16Z"
+                  fill="#283544"
+                />
+                <path
+                  d="M22.5621 12.4574C22.4857 12.502 20.6671 13.4425 20.6671 15.5279C20.7528 17.9061 22.9621 18.7401 23 18.7401C22.9621 18.7847 22.6665 19.8763 21.7907 21.0205C21.0956 22.0062 20.3242 23 19.1528 23C18.0385 23 17.6385 22.3431 16.3528 22.3431C14.972 22.3431 14.5813 23 13.5242 23C12.3528 23 11.5242 21.953 10.7913 20.9766C9.8391 19.6986 9.02978 17.6931 9.00121 15.7675C8.98195 14.7471 9.19189 13.744 9.72481 12.8921C10.477 11.7026 11.8198 10.8952 13.2863 10.8686C14.4099 10.8333 15.4099 11.5875 16.0956 11.5875C16.7528 11.5875 17.9814 10.8686 19.3714 10.8686C19.9714 10.8692 21.5714 11.0376 22.5621 12.4574ZM16.0006 10.6649C15.8006 9.73303 16.3528 8.80119 16.8671 8.20677C17.5242 7.48792 18.5621 7 19.4571 7C19.5143 7.93185 19.1522 8.84575 18.505 9.51136C17.9242 10.2302 16.9242 10.7714 16.0006 10.6649Z"
+                  fill="white"
+                />
+              </svg>
+              <h3>Junior Software Engineer at Apple</h3>
+            </div>
+            <span>Jan 2016 - Dec 2017</span>
+          </div>
+          <p>
+            During my tenure at Apple, I held the role of Software Architect,
+            where I played a key role in shaping the architecture of
+            mission-critical software projects. Responsible for designing
+            scalable and efficient systems, I provided technical leadership to a
+            cross-functional team.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT ME -->
+    <section class="about-me" id="about-me">
+      <div class="about-me-img">
+        <img src="assets/about-me.png" alt="About me Image" />
+      </div>
+      <div class="about-me-text">
+        <h2>About <b>Me</b></h2>
+        <p>
+          As a results-oriented software developer, I am passionate about crafting innovative solutions that seamlessly blend technical expertise with user-centric design. With a strong foundation in [specific programming languages or technologies], I am adept at translating complex concepts into intuitive and visually appealing user interfaces. My collaborative nature allows me to thrive in dynamic team environments, where I actively contribute to the development process, from initial ideation to final deployment.
+        </p>
+        <p>
+          I am constantly driven to stay updated with the latest industry trends and technologies, enabling me to deliver cutting-edge solutions that meet evolving business needs. My problem-solving skills and attention to detail ensure that I consistently produce high-quality, reliable software that exceeds expectations.
+        </p>
+      </div>
+    </section>
+    <!-- MY PROJECTS -->
+    <section class="my-projects" id="projects">
+      <h2>My <b>Projects</b></h2>
+      <div class="projects">
+        <!-- PROJECT 1 -->
+        <div class="project">
+          <div class="project-img">
+            <img
+              src="assets/projects/project-1.jpeg"
+              alt="Crypto Scanner App"
+            />
+          </div>
+          <div class="project-details">
+            <span>01</span>
+            <h3>Crypto Screener Application</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              natus porro saepe aut non ipsa quae totam dolorem consequatur?
+              Aperiam.
+            </p>
+            <a href="#">
+              READ MORE
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="21"
+                viewBox="0 0 20 21"
+                fill="none"
+              >
+                <path
+                  d="M10.8334 9.9012L17.6667 3.06787"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M18.3334 6.40088V2.40088H14.3334"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M9.16663 2.40088H7.49996C3.33329 2.40088 1.66663 4.06755 1.66663 8.23421V13.2342C1.66663 17.4009 3.33329 19.0675 7.49996 19.0675H12.5C16.6666 19.0675 18.3333 17.4009 18.3333 13.2342V11.5675"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <!-- PROJECT 2 -->
+        <div class="project">
+          <div class="project-img">
+            <img
+              src="assets/projects/project-2.jpeg"
+              alt="Crypto Scanner App"
+            />
+          </div>
+          <div class="project-details">
+            <span>02</span>
+            <h3>Euphoria - Ecommerce (Apparels) Website Template</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              natus porro saepe aut non ipsa quae totam dolorem consequatur?
+              Aperiam.
+            </p>
+            <a href="#">
+              READ MORE
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="21"
+                viewBox="0 0 20 21"
+                fill="none"
+              >
+                <path
+                  d="M10.8334 9.9012L17.6667 3.06787"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M18.3334 6.40088V2.40088H14.3334"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M9.16663 2.40088H7.49996C3.33329 2.40088 1.66663 4.06755 1.66663 8.23421V13.2342C1.66663 17.4009 3.33329 19.0675 7.49996 19.0675H12.5C16.6666 19.0675 18.3333 17.4009 18.3333 13.2342V11.5675"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <!-- PROJECT 3 -->
+        <div class="project">
+          <div class="project-img">
+            <img
+              src="assets/projects/project-3.jpeg"
+              alt="Crypto Scanner App"
+            />
+          </div>
+          <div class="project-details">
+            <span>03</span>
+            <h3>Blog Website Template</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              natus porro saepe aut non ipsa quae totam dolorem consequatur?
+              Aperiam.
+            </p>
+            <a href="#">
+              READ MORE
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="21"
+                viewBox="0 0 20 21"
+                fill="none"
+              >
+                <path
+                  d="M10.8334 9.9012L17.6667 3.06787"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M18.3334 6.40088V2.40088H14.3334"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M9.16663 2.40088H7.49996C3.33329 2.40088 1.66663 4.06755 1.66663 8.23421V13.2342C1.66663 17.4009 3.33329 19.0675 7.49996 19.0675H12.5C16.6666 19.0675 18.3333 17.4009 18.3333 13.2342V11.5675"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIAL -->
+    <section class="testimonial" id="testi">
+      <h2>My <b>Testimonial</b></h2>
+      <div class="testi-list">
+        <!-- TESTIMONIAL 1 -->
+        <div class="testi-box">
+          <div class="testi-img">
+            <img src="assets/testimonial/person-1.jpeg" alt="person" />
+            <div class="quote-box">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="10"
+                viewBox="0 0 14 10"
+                fill="none"
+              >
+                <path
+                  d="M7.85892 9.05666V7.39399C7.85892 7.16839 8.09607 6.98567 8.38846 6.98567C9.43181 6.98567 9.99941 6.16057 10.0782 4.53181H8.38846C8.09611 4.53181 7.85892 4.34883 7.85892 4.12349V0.612683C7.85892 0.387168 8.09607 0.204444 8.38846 0.204444H12.8935C13.1858 0.204444 13.4231 0.387368 13.4231 0.612683V4.12352C13.4231 4.90423 13.3209 5.62065 13.1202 6.25337C12.9141 6.902 12.5977 7.46907 12.18 7.939C11.7504 8.42191 11.2125 8.80086 10.5823 9.06477C9.94736 9.33037 9.20924 9.46516 8.38824 9.46516C8.09611 9.46499 7.85892 9.28209 7.85892 9.05666ZM1.02943 6.98553C0.73708 6.98553 0.5 7.16839 0.5 7.39368V9.05669C0.5 9.28209 0.73708 9.46485 1.02943 9.46485C1.85003 9.46485 2.58852 9.33002 3.22309 9.06446C3.85362 8.80058 4.39138 8.42194 4.82093 7.93868C5.2389 7.46876 5.55527 6.90166 5.7614 6.25272C5.96217 5.61999 6.06416 4.90354 6.06416 4.12317V0.61234C6.06416 0.386826 5.82686 0.204102 5.53462 0.204102H1.02943C0.73708 0.204102 0.5 0.386997 0.5 0.61234V4.12317C0.5 4.34866 0.73708 4.5315 1.02943 4.5315H2.69543C2.61762 6.1604 2.0582 6.98553 1.02943 6.98553Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
+          <p>
+            I recently had to jump on 10+ different calls across eight different
+            countries to find the right owner.
+          </p>
+          <div class="line"></div>
+          <h5>Ahmad</h5>
+          <span>Designer</span>
+        </div>
+        <!-- TESTIMONIAL 2 -->
+        <div class="testi-box">
+          <div class="testi-img">
+            <img src="assets/testimonial/person-2.jpeg" alt="person" />
+            <div class="quote-box">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="10"
+                viewBox="0 0 14 10"
+                fill="none"
+              >
+                <path
+                  d="M7.85892 9.05666V7.39399C7.85892 7.16839 8.09607 6.98567 8.38846 6.98567C9.43181 6.98567 9.99941 6.16057 10.0782 4.53181H8.38846C8.09611 4.53181 7.85892 4.34883 7.85892 4.12349V0.612683C7.85892 0.387168 8.09607 0.204444 8.38846 0.204444H12.8935C13.1858 0.204444 13.4231 0.387368 13.4231 0.612683V4.12352C13.4231 4.90423 13.3209 5.62065 13.1202 6.25337C12.9141 6.902 12.5977 7.46907 12.18 7.939C11.7504 8.42191 11.2125 8.80086 10.5823 9.06477C9.94736 9.33037 9.20924 9.46516 8.38824 9.46516C8.09611 9.46499 7.85892 9.28209 7.85892 9.05666ZM1.02943 6.98553C0.73708 6.98553 0.5 7.16839 0.5 7.39368V9.05669C0.5 9.28209 0.73708 9.46485 1.02943 9.46485C1.85003 9.46485 2.58852 9.33002 3.22309 9.06446C3.85362 8.80058 4.39138 8.42194 4.82093 7.93868C5.2389 7.46876 5.55527 6.90166 5.7614 6.25272C5.96217 5.61999 6.06416 4.90354 6.06416 4.12317V0.61234C6.06416 0.386826 5.82686 0.204102 5.53462 0.204102H1.02943C0.73708 0.204102 0.5 0.386997 0.5 0.61234V4.12317C0.5 4.34866 0.73708 4.5315 1.02943 4.5315H2.69543C2.61762 6.1604 2.0582 6.98553 1.02943 6.98553Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
+          <p>
+            I recently had to jump on 10+ different calls across eight different
+            countries to find the right owner.
+          </p>
+          <div class="line"></div>
+          <h5>Abdullah</h5>
+          <span>Designer</span>
+        </div>
+        <!-- TESTIMONIAL 3 -->
+        <div class="testi-box">
+          <div class="testi-img">
+            <img src="assets/testimonial/person-3.jpeg" alt="person" />
+            <div class="quote-box">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="10"
+                viewBox="0 0 14 10"
+                fill="none"
+              >
+                <path
+                  d="M7.85892 9.05666V7.39399C7.85892 7.16839 8.09607 6.98567 8.38846 6.98567C9.43181 6.98567 9.99941 6.16057 10.0782 4.53181H8.38846C8.09611 4.53181 7.85892 4.34883 7.85892 4.12349V0.612683C7.85892 0.387168 8.09607 0.204444 8.38846 0.204444H12.8935C13.1858 0.204444 13.4231 0.387368 13.4231 0.612683V4.12352C13.4231 4.90423 13.3209 5.62065 13.1202 6.25337C12.9141 6.902 12.5977 7.46907 12.18 7.939C11.7504 8.42191 11.2125 8.80086 10.5823 9.06477C9.94736 9.33037 9.20924 9.46516 8.38824 9.46516C8.09611 9.46499 7.85892 9.28209 7.85892 9.05666ZM1.02943 6.98553C0.73708 6.98553 0.5 7.16839 0.5 7.39368V9.05669C0.5 9.28209 0.73708 9.46485 1.02943 9.46485C1.85003 9.46485 2.58852 9.33002 3.22309 9.06446C3.85362 8.80058 4.39138 8.42194 4.82093 7.93868C5.2389 7.46876 5.55527 6.90166 5.7614 6.25272C5.96217 5.61999 6.06416 4.90354 6.06416 4.12317V0.61234C6.06416 0.386826 5.82686 0.204102 5.53462 0.204102H1.02943C0.73708 0.204102 0.5 0.386997 0.5 0.61234V4.12317C0.5 4.34866 0.73708 4.5315 1.02943 4.5315H2.69543C2.61762 6.1604 2.0582 6.98553 1.02943 6.98553Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
+          <p>
+            I recently had to jump on 10+ different calls across eight different
+            countries to find the right owner.
+          </p>
+          <div class="line"></div>
+          <h5>Umar</h5>
+          <span>Designer</span>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <form action="#">
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Your name"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          required
+        />
+        <input
+          type="url"
+          name="website"
+          id="website"
+          placeholder="Your website (if exists)"
+          required
+        />
+        <textarea
+          name="message"
+          id="message"
+          placeholder="How can i help?"
+          required
+        ></textarea>
+        <div class="contact-buttons">
+          <button type="submit">Get In Touch</button>
+          <div class="button-box">
+            <a
+              href="#"
+              target="_blank"
+              class="hero-btn"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_1513_742)">
+                  <path
+                    d="M0 1.146C0 0.513 0.526 0 1.175 0H14.825C15.474 0 16 0.513 16 1.146V14.854C16 15.487 15.474 16 14.825 16H1.175C0.526 16 0 15.487 0 14.854V1.146ZM4.943 13.394V6.169H2.542V13.394H4.943ZM3.743 5.182C4.58 5.182 5.101 4.628 5.101 3.934C5.086 3.225 4.581 2.686 3.759 2.686C2.937 2.686 2.4 3.226 2.4 3.934C2.4 4.628 2.921 5.182 3.727 5.182H3.743ZM8.651 13.394V9.359C8.651 9.143 8.667 8.927 8.731 8.773C8.904 8.342 9.299 7.895 9.963 7.895C10.832 7.895 11.179 8.557 11.179 9.529V13.394H13.58V9.25C13.58 7.03 12.396 5.998 10.816 5.998C9.542 5.998 8.971 6.698 8.651 7.191V7.216H8.635L8.651 7.191V6.169H6.251C6.281 6.847 6.251 13.394 6.251 13.394H8.651Z"
+                    fill="currentColor"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1513_742">
+                    <rect width="16" height="16" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+            <a
+              href="#"
+              target="_blank"
+              class="hero-btn"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C12.1384 15.0543 13.5187 14.0337 14.4964 12.672C15.4741 11.3104 16 9.67631 16 8C16 3.58 12.42 0 8 0Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+            <a
+              href="#"
+              target="_blank"
+              class="hero-btn"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_1513_746)">
+                  <path
+                    d="M13.601 2.32606C12.8676 1.58555 11.9941 0.998501 11.0314 0.599149C10.0688 0.199797 9.03621 -0.00386082 7.994 5.54251e-05C3.627 5.54251e-05 0.068 3.55806 0.064 7.92606C0.064 9.32506 0.43 10.6861 1.121 11.8911L0 16.0001L4.204 14.8981C5.36649 15.5323 6.66975 15.8641 7.994 15.8631H7.998C12.366 15.8631 15.924 12.3051 15.928 7.93306C15.9289 6.89112 15.7237 5.85929 15.3241 4.897C14.9246 3.9347 14.3396 3.06095 13.601 2.32606ZM7.994 14.5211C6.81318 14.5201 5.65422 14.2024 4.638 13.6011L4.398 13.4571L1.904 14.1111L2.57 11.6781L2.414 11.4271C1.75381 10.3774 1.40465 9.16208 1.407 7.92206C1.407 4.29606 4.364 1.33806 7.998 1.33806C8.86374 1.3365 9.72123 1.50633 10.521 1.83775C11.3208 2.16916 12.0471 2.65562 12.658 3.26906C13.2709 3.8802 13.7568 4.6066 14.0877 5.40638C14.4186 6.20617 14.5879 7.06352 14.586 7.92906C14.582 11.5681 11.625 14.5211 7.994 14.5211ZM11.609 9.58706C11.412 9.48806 10.439 9.00906 10.256 8.94106C10.074 8.87606 9.941 8.84206 9.811 9.04006C9.678 9.23706 9.298 9.68605 9.184 9.81505C9.07 9.94805 8.952 9.96306 8.754 9.86506C8.557 9.76506 7.918 9.55706 7.162 8.88006C6.572 8.35506 6.177 7.70506 6.059 7.50806C5.945 7.31006 6.048 7.20406 6.147 7.10506C6.234 7.01706 6.344 6.87306 6.443 6.75906C6.543 6.64506 6.576 6.56106 6.641 6.42906C6.706 6.29506 6.675 6.18106 6.626 6.08206C6.576 5.98306 6.181 5.00606 6.014 4.61206C5.854 4.22306 5.691 4.27706 5.569 4.27206C5.455 4.26506 5.322 4.26506 5.189 4.26506C5.08857 4.26761 4.98976 4.29087 4.89873 4.33337C4.80771 4.37587 4.72643 4.4367 4.66 4.51206C4.478 4.71006 3.969 5.18906 3.969 6.16606C3.969 7.14306 4.679 8.08206 4.779 8.21506C4.877 8.34806 6.173 10.3471 8.162 11.2071C8.632 11.4121 9.002 11.5331 9.291 11.6251C9.766 11.7771 10.195 11.7541 10.537 11.7051C10.917 11.6471 11.708 11.2251 11.875 10.7621C12.039 10.2981 12.039 9.90206 11.989 9.81906C11.94 9.73506 11.807 9.68606 11.609 9.58706Z"
+                    fill="currentColor"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1513_746">
+                    <rect width="16" height="16" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+            <a href="#" target="_blank" class="hero-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_1513_752)">
+                  <path
+                    d="M16 8.04902C16 3.60302 12.418 -0.000976562 8.00005 -0.000976562C3.58005 2.34375e-05 -0.00195312 3.60302 -0.00195312 8.05002C-0.00195312 12.067 2.92405 15.397 6.74805 16.001V10.376H4.71805V8.05002H6.75005V6.27502C6.75005 4.25802 7.94505 3.14402 9.77205 3.14402C10.648 3.14402 11.563 3.30102 11.563 3.30102V5.28102H10.554C9.56105 5.28102 9.25105 5.90202 9.25105 6.53902V8.04902H11.469L11.115 10.375H9.25005V16C13.074 15.396 16 12.066 16 8.04902Z"
+                    fill="currentColor"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1513_752">
+                    <rect width="16" height="16" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+            <a
+              href="#"
+              target=""
+              class="hero-btn"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_1513_754)">
+                  <path
+                    d="M8 0C5.829 0 5.556 0.01 4.703 0.048C3.85 0.088 3.269 0.222 2.76 0.42C2.22584 0.620326 1.74214 0.935398 1.343 1.343C0.935398 1.74214 0.620326 2.22584 0.42 2.76C0.222 3.268 0.087 3.85 0.048 4.7C0.01 5.555 0 5.827 0 8.001C0 10.173 0.01 10.445 0.048 11.298C0.088 12.15 0.222 12.731 0.42 13.24C0.625 13.766 0.898 14.212 1.343 14.657C1.787 15.102 2.233 15.376 2.759 15.58C3.269 15.778 3.849 15.913 4.701 15.952C5.555 15.99 5.827 16 8 16C10.173 16 10.444 15.99 11.298 15.952C12.149 15.912 12.732 15.778 13.241 15.58C13.7748 15.3795 14.2581 15.0645 14.657 14.657C15.102 14.212 15.375 13.766 15.58 13.24C15.777 12.731 15.912 12.15 15.952 11.298C15.99 10.445 16 10.173 16 8C16 5.827 15.99 5.555 15.952 4.701C15.912 3.85 15.777 3.268 15.58 2.76C15.3797 2.22584 15.0646 1.74214 14.657 1.343C14.2579 0.935398 13.7742 0.620326 13.24 0.42C12.73 0.222 12.148 0.087 11.297 0.048C10.443 0.01 10.172 0 7.998 0H8ZM7.283 1.442H8.001C10.137 1.442 10.39 1.449 11.233 1.488C12.013 1.523 12.437 1.654 12.719 1.763C13.092 1.908 13.359 2.082 13.639 2.362C13.919 2.642 14.092 2.908 14.237 3.282C14.347 3.563 14.477 3.987 14.512 4.767C14.551 5.61 14.559 5.863 14.559 7.998C14.559 10.133 14.551 10.387 14.512 11.23C14.477 12.01 14.346 12.433 14.237 12.715C14.1078 13.0619 13.9032 13.3758 13.638 13.634C13.358 13.914 13.092 14.087 12.718 14.232C12.438 14.342 12.014 14.472 11.233 14.508C10.39 14.546 10.137 14.555 8.001 14.555C5.865 14.555 5.611 14.546 4.768 14.508C3.988 14.472 3.565 14.342 3.283 14.232C2.93583 14.1033 2.6216 13.899 2.363 13.634C2.09727 13.3756 1.89233 13.0614 1.763 12.714C1.654 12.433 1.523 12.009 1.488 11.229C1.45 10.386 1.442 10.133 1.442 7.996C1.442 5.859 1.45 5.608 1.488 4.765C1.524 3.985 1.654 3.561 1.764 3.279C1.909 2.906 2.083 2.639 2.363 2.359C2.643 2.079 2.909 1.906 3.283 1.761C3.565 1.651 3.988 1.521 4.768 1.485C5.506 1.451 5.792 1.441 7.283 1.44V1.442ZM12.271 2.77C12.1449 2.77 12.0201 2.79483 11.9036 2.84308C11.7872 2.89132 11.6813 2.96203 11.5922 3.05118C11.503 3.14032 11.4323 3.24615 11.3841 3.36262C11.3358 3.4791 11.311 3.60393 11.311 3.73C11.311 3.85607 11.3358 3.9809 11.3841 4.09738C11.4323 4.21385 11.503 4.31968 11.5922 4.40882C11.6813 4.49797 11.7872 4.56868 11.9036 4.61692C12.0201 4.66517 12.1449 4.69 12.271 4.69C12.5256 4.69 12.7698 4.58886 12.9498 4.40882C13.1299 4.22879 13.231 3.98461 13.231 3.73C13.231 3.47539 13.1299 3.23121 12.9498 3.05118C12.7698 2.87114 12.5256 2.77 12.271 2.77ZM8.001 3.892C7.45607 3.8835 6.91489 3.98349 6.40898 4.18614C5.90306 4.3888 5.44251 4.69007 5.05415 5.07242C4.66579 5.45478 4.35736 5.91057 4.14684 6.41326C3.93632 6.91595 3.8279 7.4555 3.8279 8.0005C3.8279 8.5455 3.93632 9.08505 4.14684 9.58774C4.35736 10.0904 4.66579 10.5462 5.05415 10.9286C5.44251 11.3109 5.90306 11.6122 6.40898 11.8149C6.91489 12.0175 7.45607 12.1175 8.001 12.109C9.07954 12.0922 10.1082 11.6519 10.865 10.8833C11.6217 10.1146 12.0459 9.07917 12.0459 8.0005C12.0459 6.92183 11.6217 5.88641 10.865 5.11775C10.1082 4.34909 9.07954 3.90883 8.001 3.892ZM8.001 5.333C8.35124 5.333 8.69804 5.40198 9.02162 5.53601C9.34519 5.67004 9.6392 5.86649 9.88685 6.11415C10.1345 6.3618 10.331 6.65581 10.465 6.97938C10.599 7.30296 10.668 7.64976 10.668 8C10.668 8.35024 10.599 8.69704 10.465 9.02062C10.331 9.34419 10.1345 9.6382 9.88685 9.88585C9.6392 10.1335 9.34519 10.33 9.02162 10.464C8.69804 10.598 8.35124 10.667 8.001 10.667C7.29367 10.667 6.61531 10.386 6.11515 9.88585C5.61499 9.38569 5.334 8.70733 5.334 8C5.334 7.29267 5.61499 6.61431 6.11515 6.11415C6.61531 5.61399 7.29367 5.333 8.001 5.333Z"
+                    fill="currentColor"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1513_754">
+                    <rect width="16" height="16" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </form>
+      <div class="contact-info">
+        <h2>Let's <span>talk</span> for Something special</h2>
+        <p>
+          I seek to push the limits of creativity to create high-engaging,
+          user-friendly, and memorable interactive experiences.
+        </p>
+        <div class="info">
+          <a href="#" target="_blank">
+            fulann@gmail.com
+          </a>
+          <a href="#" target="_blank">
+            6281234567890
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <a href="/">
+        <div class="brand">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+          >
+            <path
+              d="M31.5294 14.2118C31.5294 18.8819 28.7623 22.9082 24.7793 24.7351C26.4612 23.3496 27.5322 21.248 27.5322 18.896C27.5322 14.7642 24.2259 11.4042 20.112 11.3205C20.0574 11.3167 20.0075 11.3167 19.9529 11.3167C19.8983 11.3167 19.8485 11.3167 19.7939 11.3205C18.2673 11.4033 17.0588 12.6663 17.0588 14.2108V28.6814C17.0588 33.4748 13.1699 37.3638 8.37646 37.3638V14.2118C8.37646 7.81928 13.5605 2.63528 19.9529 2.63528C26.3454 2.63528 31.5294 7.81928 31.5294 14.2118Z"
+              fill="currentColor"
+            />
+            <path
+              d="M21.9992 16.2582C23.1294 15.128 23.1294 13.2956 21.9992 12.1654C20.8689 11.0351 19.0365 11.0351 17.9063 12.1654C16.7761 13.2956 16.7761 15.128 17.9063 16.2582C19.0365 17.3884 20.8689 17.3884 21.9992 16.2582Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span>Fulann</span>
+        </div>
+      </a>
+      <div class="copy">
+        <p>&copy; 2024. All Rights Reserved</p>
+        <p>
+          <a href="#">Fulann</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
